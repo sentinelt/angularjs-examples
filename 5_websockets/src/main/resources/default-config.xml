@@ -1,0 +1,6 @@
+<config>
+	<webjars>
+		<prefix></prefix>
+		<destination>/META-INF/resources</destination>
+	</webjars>
+</config>

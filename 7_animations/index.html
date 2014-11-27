@@ -1,0 +1,19 @@
+<!doctype html>
+<html ng-app='BasicModule'>
+	<head>
+		<title>Example</title>
+		<link rel="stylesheet" type="text/css" href="animations.css">
+		<script src="angular.js"></script>
+		<script src="angular-animate.js"></script>
+		<script src="controller.js"></script>
+	</head>
+	<body ng-controller='BasicController'>
+		<h1>Hello</h1>
+		<button ng-click='add()'>Add</button>
+		<ul>
+			<li class="slide" ng-repeat="row in rows">
+				{{row}}
+			</li>
+		</ul>
+	</body>
+</html>

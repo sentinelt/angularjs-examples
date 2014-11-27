@@ -1,0 +1,20 @@
+/*
+ *  The animate class is apart of the element and the ng-enter class
+ *  is attached to the element once the enter animation event is triggered
+ */
+.slide.ng-enter {
+	-webkit-transition: 1s linear all; /* Safari/Chrome */
+	transition: 1s linear all; /* All other modern browsers and IE10+ */
+	opacity: 0;
+}
+
+
+/*
+ *  Keep in mind that you want to combine both CSS
+ *  classes together to avoid any CSS-specificity
+ *  conflicts
+ */
+.slide.ng-enter.ng-enter-active {
+	/* The animation code itself */
+	opacity: 1;
+}

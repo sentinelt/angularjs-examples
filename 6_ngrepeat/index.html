@@ -1,0 +1,11 @@
+<!doctype html>
+<html ng-app>
+	<head>
+		<title>Example</title>
+		<script src="angular.js"></script>
+	</head>
+	<body ng-init='buttons = [ "Apply", "OK", "Cancel" ] '>
+		<h1>Hello</h1>
+		<button ng-repeat="button in buttons">{{button}}</button>
+	</body>
+</html>
